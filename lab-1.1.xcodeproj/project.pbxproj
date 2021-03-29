@@ -43,6 +43,7 @@
 		EDD02FE025EBB8E400784571 /* Image_05.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD02FD825EBB8E400784571 /* Image_05.png */; };
 		EDD02FE125EBB8E400784571 /* Image_02.png in Resources */ = {isa = PBXBuildFile; fileRef = EDD02FD925EBB8E400784571 /* Image_02.png */; };
 		EDE3F66C25F99F7200A8B7DB /* DetailBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE3F66B25F99F7200A8B7DB /* DetailBookViewController.swift */; };
+		EDFCA83526124ECE007C3A96 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFCA83426124ECE007C3A96 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		EDD02FD825EBB8E400784571 /* Image_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_05.png; sourceTree = "<group>"; };
 		EDD02FD925EBB8E400784571 /* Image_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image_02.png; sourceTree = "<group>"; };
 		EDE3F66B25F99F7200A8B7DB /* DetailBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBookViewController.swift; sourceTree = "<group>"; };
+		EDFCA83426124ECE007C3A96 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				EDC84E2425EB90D000BEFB9F /* ListViewController.swift */,
 				EDE3F66B25F99F7200A8B7DB /* DetailBookViewController.swift */,
 				EDAC639525FD8CA9002B9254 /* AddBookViewController.swift */,
+				EDFCA83426124ECE007C3A96 /* CollectionViewController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDFCA83526124ECE007C3A96 /* CollectionViewController.swift in Sources */,
 				ED7165B625D461E900D6920D /* DiagramView.swift in Sources */,
 				EDB6FBA125D2C5E600EE4CD5 /* CosView.swift in Sources */,
 				EDE3F66C25F99F7200A8B7DB /* DetailBookViewController.swift in Sources */,

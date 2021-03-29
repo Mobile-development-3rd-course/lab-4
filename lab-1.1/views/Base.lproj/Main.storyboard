@@ -241,6 +241,22 @@
             </objects>
             <point key="canvasLocation" x="816" y="-42"/>
         </scene>
+        <!--Lab5-->
+        <scene sceneID="XUt-p6-3gH">
+            <objects>
+                <viewController id="jyS-QC-XpT" customClass="CollectionViewController" customModule="lab_1_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MMY-yI-e69">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ibE-Lz-Lkr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lab5" image="note" catalog="system" id="FRg-eO-mbp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qH4-z4-8Ki" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1314" y="216"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="kUV-Zw-SDb">
             <objects>
@@ -254,6 +270,7 @@
                         <segue destination="6AO-xU-uGz" kind="relationship" relationship="viewControllers" id="LaO-tc-ZaI"/>
                         <segue destination="2tA-dt-Xi2" kind="relationship" relationship="viewControllers" id="7QR-C8-Qoo"/>
                         <segue destination="akL-8l-zkd" kind="relationship" relationship="viewControllers" id="v1T-Mh-bsq"/>
+                        <segue destination="jyS-QC-XpT" kind="relationship" relationship="viewControllers" id="ihP-Wy-jra"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VvP-Dw-OU3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -401,6 +418,7 @@
     <resources>
         <image name="folder.fill" catalog="system" width="128" height="97"/>
         <image name="hand.draw.fill" catalog="system" width="128" height="109"/>
+        <image name="note" catalog="system" width="128" height="106"/>
         <image name="pencil" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
