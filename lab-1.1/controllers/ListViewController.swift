@@ -39,6 +39,7 @@ class ListViewController: UIViewController {
         navigationItem.hidesSearchBarWhenScrolling = false
         navigationItem.searchController = searchBarController
         searchBarController.searchResultsUpdater = self
+        
         navigationItem.rightBarButtonItem = {
             UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addBook))
         }()
@@ -47,9 +48,12 @@ class ListViewController: UIViewController {
     }()
     
     @objc private func addBook() {
-        let addBookViewController = storyboard?.instantiateViewController(identifier: "AddBookViewController") as! AddBookViewController
-        addBookViewController.delegate = self
-        navigationController?.pushViewController(addBookViewController, animated: true)
+//        let addBookViewController = storyboard?.instantiateViewController(identifier: "AddBookViewController") as! AddBookViewController
+        
+        let testViewController = AddBookViewController()
+        testViewController.delegate = self
+
+        navigationController?.pushViewController(testViewController, animated: true)
     }
     
     
