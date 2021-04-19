@@ -64,11 +64,11 @@
             </objects>
             <point key="canvasLocation" x="816" y="663"/>
         </scene>
-        <!--Lab3-->
+        <!--Lab3-4-->
         <scene sceneID="Jdx-9R-Vnc">
             <objects>
                 <navigationController id="akL-8l-zkd" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Lab3" image="folder.fill" catalog="system" id="UPG-UL-Gap"/>
+                    <tabBarItem key="tabBarItem" title="Lab3-4" image="folder.fill" catalog="system" id="UPG-UL-Gap"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="cA6-Mz-kSj">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
