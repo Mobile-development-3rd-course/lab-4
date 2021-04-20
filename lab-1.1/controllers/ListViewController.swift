@@ -132,11 +132,11 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
             book = books[indexPath.row]
         }
         
-        guard let detailBookByIdentifier = StorageManager.shared.parseDetailBookJson(ForIdentifier: book.isbn13),
-              let detailBook = storyboard?.instantiateViewController(identifier: "DetailBookViewController") as? DetailBookViewController else {
+        guard let detailBookByIdentifier = StorageManager.shared.parseDetailBookJson(ForIdentifier: book.isbn13) else {
             return
         }
         
+        let detailBook = DetailBookViewController()
         navigationController?.pushViewController(detailBook, animated: true)
         
         detailBook.detailImage = detailBookByIdentifier.image
