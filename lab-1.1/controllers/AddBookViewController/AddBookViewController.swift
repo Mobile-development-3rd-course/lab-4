@@ -50,6 +50,7 @@ class AddBookViewController: UIViewController {
         addedBook = Book(title: titleTex, subtitle: subTitleText, price: "$\(price)")
         print(addedBook!)
         self.delegate?.transferAddedBook(book: addedBook!)
+        navigationController?.popViewController(animated: true)
     }
 
     @objc func kbWillShow(notification: NSNotification) {
