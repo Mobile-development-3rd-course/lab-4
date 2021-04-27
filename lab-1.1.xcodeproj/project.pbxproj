@@ -31,6 +31,8 @@
 		ED80B87E25F3B0DE0021D5F1 /* 9780321862969.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED80B87425F3B0DE0021D5F1 /* 9780321862969.txt */; };
 		ED80B87F25F3B0DE0021D5F1 /* 9780321856715.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED80B87525F3B0DE0021D5F1 /* 9780321856715.txt */; };
 		ED80B88025F3B0DE0021D5F1 /* 9781430260226.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED80B87625F3B0DE0021D5F1 /* 9781430260226.txt */; };
+		ED8590FA2638C23F0005946A /* ErrorAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8590F82638C23F0005946A /* ErrorAddViewController.swift */; };
+		ED8590FB2638C23F0005946A /* ErrorAddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED8590F92638C23F0005946A /* ErrorAddViewController.xib */; };
 		EDA575E125E8E9F300173EA6 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA575E025E8E9F300173EA6 /* StorageManager.swift */; };
 		EDACB51B25D21BB100F9B845 /* DrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDACB51A25D21BB100F9B845 /* DrawingViewController.swift */; };
 		EDB6FBA125D2C5E600EE4CD5 /* CosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB6FBA025D2C5E600EE4CD5 /* CosView.swift */; };
@@ -75,6 +77,8 @@
 		ED80B87425F3B0DE0021D5F1 /* 9780321862969.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9780321862969.txt; sourceTree = "<group>"; };
 		ED80B87525F3B0DE0021D5F1 /* 9780321856715.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9780321856715.txt; sourceTree = "<group>"; };
 		ED80B87625F3B0DE0021D5F1 /* 9781430260226.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 9781430260226.txt; sourceTree = "<group>"; };
+		ED8590F82638C23F0005946A /* ErrorAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAddViewController.swift; sourceTree = "<group>"; };
+		ED8590F92638C23F0005946A /* ErrorAddViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ErrorAddViewController.xib; sourceTree = "<group>"; };
 		EDA575E025E8E9F300173EA6 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		EDACB51A25D21BB100F9B845 /* DrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingViewController.swift; sourceTree = "<group>"; };
 		EDB6FBA025D2C5E600EE4CD5 /* CosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosView.swift; sourceTree = "<group>"; };
@@ -175,6 +179,8 @@
 			children = (
 				ED2A87F4262DFED10057D76C /* AddBookViewController.swift */,
 				ED2A87F5262DFED10057D76C /* AddBookViewController.xib */,
+				ED8590F82638C23F0005946A /* ErrorAddViewController.swift */,
+				ED8590F92638C23F0005946A /* ErrorAddViewController.xib */,
 			);
 			path = AddBookViewController;
 			sourceTree = "<group>";
@@ -317,6 +323,7 @@
 				ED295FB325D0448300041455 /* Main.storyboard in Resources */,
 				EDD02FDA25EBB8E400784571 /* Image_07.png in Resources */,
 				ED80B87825F3B0DE0021D5F1 /* 9781449308360.txt in Resources */,
+				ED8590FB2638C23F0005946A /* ErrorAddViewController.xib in Resources */,
 				ED80B87C25F3B0DE0021D5F1 /* 9781430238072.txt in Resources */,
 				EDD02FDF25EBB8E400784571 /* Image_06.png in Resources */,
 				ED80B87725F3B0DE0021D5F1 /* 9781430237105.txt in Resources */,
@@ -338,6 +345,7 @@
 				ED4F870E25E6A28700EF3FB2 /* Book.swift in Sources */,
 				ED295FB025D0448300041455 /* ViewController.swift in Sources */,
 				EDACB51B25D21BB100F9B845 /* DrawingViewController.swift in Sources */,
+				ED8590FA2638C23F0005946A /* ErrorAddViewController.swift in Sources */,
 				ED33437B25EBA66200649054 /* TableViewCell.swift in Sources */,
 				EDC84E2525EB90D000BEFB9F /* ListViewController.swift in Sources */,
 				ED295FAC25D0448300041455 /* AppDelegate.swift in Sources */,
