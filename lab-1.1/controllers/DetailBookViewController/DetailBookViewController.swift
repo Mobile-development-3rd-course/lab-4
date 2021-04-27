@@ -57,7 +57,6 @@ class DetailBookViewController: UIViewController {
         let attributedString2 = NSMutableAttributedString(string: mainText, attributes: attrs2)
         
         attributedString1.append(attributedString2)
-        
         return attributedString1
     }
 }

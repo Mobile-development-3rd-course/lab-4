@@ -166,6 +166,7 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
             }
             
             tableView.deleteRows(at: [indexPath], with: .left)
+            tableView.reloadData()
         }
     }
 }
